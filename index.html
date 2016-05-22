@@ -6,12 +6,12 @@ layout: default
 	<ul class="post-list">
 		{% for post in site.posts %}
 			<li>
-				<h2>
+				<h2 class="post-link-parent">
 					<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
 						{{ post.title }}
 					</a>
 				</h2>
-				<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+				<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{post.content | number_of_words | divided_by: 180 | append: " minute read"}}</span>
 			</li>
 		{% endfor %}
 	</ul>

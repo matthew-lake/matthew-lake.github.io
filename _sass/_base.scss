@@ -3,8 +3,9 @@
  */
 $base-font-family : 	Georgia, serif;
 $background-color :	#eee;
-$tect-color:			#000;
+$text-color:			#111;
 $brand-color:			#444;
+$small-font-size:		0.9rem;
 
 /**
  * Reset some basic elements
@@ -100,7 +101,7 @@ a {
 	text-decoration-color: lighten($brand-color, 50%);
 
 	&:visited {
-		color: darken($brand-color, 15%);
+		color: darken($brand-color, 10%);
 	}
 
 	&:hover {
@@ -114,11 +115,10 @@ a {
  * Blockquotes
  */
 blockquote {
-	color: $grey-color;
-	border-left: 4px solid $grey-color-light;
+	color: $brand-color;
+	border-left: 4px solid $grey-color;
 	padding-left: $spacing-unit / 2;
 	font-size: 18px;
-	letter-spacing: -1px;
 	font-style: italic;
 
 	> :last-child {
@@ -203,4 +203,18 @@ pre {
 		    fill: $grey-color;
 		}
 	}
+}
+
+
+/**
+ * Tables
+ */
+table {
+	border-collapse: collapse;
+	border-style: hidden;
+}
+
+td, th {
+	border: 1px solid $grey-color;
+	padding: 0.5rem;
 }

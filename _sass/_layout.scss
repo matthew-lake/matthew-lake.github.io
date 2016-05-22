@@ -28,8 +28,9 @@
 	}
 
 	.page-link {
-		color: $text-color;
+//		color: $text-color;
 		line-height: $base-line-height;
+		font-size: 2rem;
 
 		// Gaps between nav items, but not on the last one
 		&:not(:last-child) {
@@ -126,13 +127,8 @@
 }
 
 .footer-col-2 {
-	width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-	width:		 calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-	width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-	width:		 calc(45% - (#{$spacing-unit} / 2));
+	width: -webkit-calc(65% - (#{$spacing-unit} / 2));
+	width:		 calc(65% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -176,6 +172,10 @@
 .post-meta {
 	font-size: $small-font-size;
 	color: $grey-color;
+}
+
+.post-link-parent {
+	margin-bottom: 0;
 }
 
 .post-link {

@@ -1,15 +1,13 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About Me
+permalink: /about
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm a third year software engineering / history student at the University of Queensland.
+I work part time as a web developer, and work on projects in my free time. Check out my resume or projects for more info.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Additionally, I have a [GitHub account][github], and can be reached at [me@mgtlake.com][mail].
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+[github]:	http://github.com/matthew-lake
+[mail]:		mailto:me@mgtlake.com
